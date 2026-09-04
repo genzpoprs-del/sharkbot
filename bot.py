@@ -222,26 +222,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-📄 FILE 7 (Optional): README.md
-Click "Add file" → "Create new file" → name: README.md
-
-# 🦈 SharkBot — AI Trading Signal Bot
-
-Telegram bot powered by Google Gemini AI for SharkFunded prop firm accounts. ## Features
-- Real-time BUY/SELL signals
-- Risk management tracking
-- Daily loss monitoring
-- Chart screenshot analysis
-- Trade journal
-
-## Setup
-1. Get Telegram token from @BotFather
-2. Get Gemini API key from aistudio.google.com
-3. Add secrets to Railway environment variables
-4. Deploy!
-
-## Commands
-- `/signal` — Get trade signal
-- `/balance` — Account status
-- `/log` — Log a trade result
-- `/rules` — Show trading rules
